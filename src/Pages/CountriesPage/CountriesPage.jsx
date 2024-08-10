@@ -19,7 +19,7 @@ function CountriesPage() {
     })
   }
   return (
-    <div className='CountriesBox my-2' style={{backgroundColor: 'rgb(116, 219, 253)'}}>
+    <div className='CountriesBox my-2' style={{backgroundColor: '#6199f3'}}>
        { cData.map((country,index)=><CountriesCards country={country} key={index} />)}
     </div>
   )

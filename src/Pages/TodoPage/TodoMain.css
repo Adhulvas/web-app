@@ -1,14 +1,16 @@
 .Todo-container {
   display: flex;
   justify-content: center;
+  align-items: start;
 }
 
 .Todo-box {
-  background-color: #83b3ff;
+  background-color: rgb(235, 223, 223);
   width: 35rem;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   padding: 20px;
   border-radius: 10px;
+  margin-top: 15px;
 }
 
 .input-area {
