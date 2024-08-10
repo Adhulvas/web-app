@@ -1,0 +1,17 @@
+.error-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center; 
+  flex-direction: column;
+  align-items: center; 
+  height: 100vh; 
+}
+
+.error-code {
+  max-width: 60%;
+  height: auto;
+}

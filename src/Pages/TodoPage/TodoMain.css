@@ -1,0 +1,45 @@
+.Todo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.Todo-box {
+  background-color: #83b3ff;
+  width: 35rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.input-area {
+  display: grid;
+  grid-template-columns: 380px 100px;
+  column-gap: 15px;
+  align-items: start;
+  justify-content: center;
+}
+
+.name-input {
+  font-size: 15px;
+  padding: 8px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+.add-button{
+  background-color: rgb(255, 216, 20);
+  padding: 8px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 15px;
+  border: none;
+  font-weight: 700;
+}
+.add-button:hover{
+  background-color:rgb(223, 190, 26) ;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+}
+.add-button:active{
+  opacity: 0.6;
+}

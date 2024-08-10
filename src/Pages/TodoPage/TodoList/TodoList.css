@@ -1,0 +1,31 @@
+.List-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
+  font-size: 15px;
+}
+
+.Remove-button,
+.Done-button {
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  border: none;
+  font-weight: 700;
+}
+
+.Remove-button:hover {
+  background-color: darkred;
+  color: white;
+}
+
+.Done-button:hover {
+  background-color: green;
+  color: white;
+}
+.done {
+  text-decoration: line-through;
+  background-color: green;
+}

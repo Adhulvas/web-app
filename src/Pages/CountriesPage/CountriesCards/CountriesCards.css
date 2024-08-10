@@ -1,0 +1,25 @@
+.card-container {
+  background-color: #ccd0d5 !important;
+  width: 18rem;
+  height: 24rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cardImage {
+  height: 10rem;
+  object-fit: cover; 
+}
+
+.card-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; 
+}
+
+.card-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; 
+}
